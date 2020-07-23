@@ -1,0 +1,3 @@
+实现了Heapify与Replace方法
+其中Heapify将数组传入堆中，整理为堆的形状
+Replace：取出堆顶元素再添加一个新的元素
