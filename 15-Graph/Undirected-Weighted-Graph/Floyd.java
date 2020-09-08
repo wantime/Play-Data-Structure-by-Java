@@ -15,7 +15,7 @@ public class Floyd {
             Arrays.fill(dis[i], Integer.MAX_VALUE);
 
         for (int v = 0; v < G.V(); v ++) {
-            dis[v][v] = v;
+            dis[v][v] = 0;
             for (int w:G.adj(v))
                 dis[v][w] = G.getWeight(v, w);
         }
